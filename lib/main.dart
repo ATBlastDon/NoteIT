@@ -18,6 +18,7 @@ class NoteItApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'NoteIt',
+      debugShowCheckedModeBanner: false, // Move debugShowCheckedModeBanner here
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
         useMaterial3: true,
